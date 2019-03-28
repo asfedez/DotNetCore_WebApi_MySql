@@ -1,0 +1,14 @@
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/bin/Debug/netcoreapp2.2/MySqlApi.deps.json
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/bin/Debug/netcoreapp2.2/MySqlApi.runtimeconfig.json
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/bin/Debug/netcoreapp2.2/MySqlApi.runtimeconfig.dev.json
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/bin/Debug/netcoreapp2.2/MySqlApi.dll
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/bin/Debug/netcoreapp2.2/MySqlApi.pdb
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/obj/Debug/netcoreapp2.2/MySqlApi.csprojAssemblyReference.cache
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/obj/Debug/netcoreapp2.2/MySqlApi.csproj.CoreCompileInputs.cache
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/obj/Debug/netcoreapp2.2/MySqlApi.RazorAssemblyInfo.cache
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/obj/Debug/netcoreapp2.2/MySqlApi.RazorAssemblyInfo.cs
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/obj/Debug/netcoreapp2.2/MySqlApi.AssemblyInfoInputs.cache
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/obj/Debug/netcoreapp2.2/MySqlApi.AssemblyInfo.cs
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/obj/Debug/netcoreapp2.2/MySqlApi.RazorTargetAssemblyInfo.cache
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/obj/Debug/netcoreapp2.2/MySqlApi.dll
+/home/asfedez/Escritorio/webApi_netcore/MySqlApi/obj/Debug/netcoreapp2.2/MySqlApi.pdb

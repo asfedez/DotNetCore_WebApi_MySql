@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+           
+
+</head>
+<body>
+    
+
+    <div id="app">
+        <h1>{{initGreeting}}</h1>
+
+        <div class="container">
+            
+            <div class="card">
+                
+                <div class="card-content">
+                    <h5 class="">Tasks</h5>
+                    <button class="btn waves-effect waves-light #43a047 green darken-1" 
+                    v-on:click="openModal('addTask')">Add new task</button>
+                    <table class="highlight">
+                        <thead>
+                            <tr>
+                                <td>ID</td>
+                                <td>Description</td>
+                                <td>Status</td>
+                                <td>Actions</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for= "item in itemsList">
+                                <td>{{item.id}}</td>
+                                <td>{{item.description}}</td>
+                                <td v-if="item.ischeck==1">True</td>
+                                <td v-else>False</td>
+                                <td>
+                                    <button class="btn btn waves-effect waves-light #ffd600 yellow accent-4">Update</button>
+                                    <button class="btn btn waves-effect waves-light #d32f2f red darken-2">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>         
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="addTask" class="modal">
+                <div class="modal-content">
+                  <h4>Add new task</h4>
+                  <div class="row">
+                      <div class="col s12">
+                        <div class="input-field col s6">
+                            <input placeholder="Example: 123" id="id" type="text" class="validate">
+                            <label for="id">ID</label>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                        <div class="col s12">
+                          <div class="input-field col s6">
+                              <input placeholder="Example: Task 1" id="description" type="text" class="validate">
+                              <label for="description">Description</label>
+                          </div>
+                        </div>
+                    </div>
+
+                    <button class="btn waves-effect waves-light #43a047 green darken-1">Add</button>
+                    <button class="modal-action modal-close btn waves-effect waves-light #d32f2f red darken-2">Cancel</button>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+            </div>
+
+            
+
+       
+
+    </div>
+
+
+ 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
